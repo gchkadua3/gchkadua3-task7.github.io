@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Fira-Go;
+}
+
+@font-face {
+    font-family: Fira-Go;
+    src: url(fonts/FiraGO-Regular.woff);
+}
+
+.container {
+    width: 1223px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.cent {
+    text-align: center;
+}
+
+.First-H{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 35px;
+}
+
+.firstTable {
+    margin-top: 30px;
+    border-collapse: collapse;
+    
+}
+
+.FirstR > th {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding: 23px 25px;
+    
+    
+}
+
+.FirstR{
+    text-align: left;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;  
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+    padding-left: 25px;
+}
+
+.name {
+    width: 359px;
+    height: 50px;
+}
+
+.email {
+    width: 266px;
+    height: 50px;
+}
+
+.mobile {
+    width: 217px;
+    height: 50px;
+}
+
+.search-button {
+    width: 141px;
+    background: #FFDD04;
+    border-radius: 10px;
+    border-color: transparent;
+    height: 50px;
+}
+
+.a-search {
+    color: black;
+    text-decoration: none;
+}
+
+.secondR {
+    
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+    
+}
+
+.secondR > td  {
+    padding: 17px 35px 17px 25px
+}
+
+::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E8E8E8;
+}
+
+.btn-right{
+    text-align: right;
+    margin-top: 64px;
+}
+
+.create-button {
+    width: 141px;
+    height: 40px;
+    border-color: transparent;
+    background: #FFDD04;
+    border-radius: 10px;
+    margin-right: auto;
+}
+
+.Second-H {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.secondTable {
+    margin-top: 29px;
+    border-collapse: collapse;
+    
+}
+
+.ThirdR > th {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding: 23px 25px;   
+}
+
+.ThirdR{
+    text-align: left;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;  
+}
+
+.FourthR {
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+}
+
+.FourthR > td {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding: 23px 44px 23px 25px;
+}
+
+.btn-red {
+    width: 93px;
+    height: 33px;
+    border-color: transparent;
+    background: #FF8271;
+    border-radius: 10px;
+}
+
+.btn-yellow {
+    border-color: transparent;
+    width: 93px;
+    height: 33px;
+    background: #FFDD04;
+    border-radius: 10px;
+}
+
